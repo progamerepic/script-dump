@@ -1,40 +1,6 @@
+_G.ClickFling=false -- Set this to true if u want.
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/XeneonPlays/Nexo/main/NexoPD'),true))()
 
-HumanDied = false
-local reanim
-function noplsmesh(hat)
-_G.OldCF=workspace.Camera.CFrame
-oldchar=game.Players.LocalPlayer.Character
-game.Players.LocalPlayer.Character=workspace[game.Players.LocalPlayer.Name]
-for i,v in next, workspace[game.Players.LocalPlayer.Name][hat]:GetDescendants() do
-if v:IsA('Mesh') or v:IsA('SpecialMesh') then
-v:Remove()
-end
-end
-game.Players.LocalPlayer.Character=oldchar
-wait()
-workspace.Camera.CFrame=_G.OldCF
-game.Players.LocalPlayer.Character=oldchar
-end
-local character = game.Players.LocalPlayer.Character
-
-
---- Did actually rework heavily away from original neptunian, and the non-rework neptunian. --NoobyGames12
---- Was supposed to be for the770zone, or VengefulProgram.
-
-warn'Neptune/Neptunian V'
-warn[[Absolutely.
-
-Created by NoobyGames12
-----------------------------]]
-
-_G.Fling = true                 --Recommended : False or u skid.
-_G.ClickFling = true            --Recommended : True if fling is on.
-_G.CustomAnimations = true      --Turn it to False if u want roblox classic anims.
-_G.FollowCamera = false         --Turn it to true if u would like to use it on floating anims.
-_G.BotChat = false              --True = they can see chat on bot
---\========================/--
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/XeneonPlays/Nexo/main/NexoBot'),true)
-warn("Have fun using this!")
 ---- DO NOT CHANGE ANYTHING BELOW IF YOU'RE NOT AN EDITOR 
 
 
