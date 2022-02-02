@@ -1,3 +1,13 @@
+    game:GetService("").Heartbeat:Connect(function()
+       workspace.FallenPartsDestroyHeight = 0/0
+       settings().Physics.AllowSleep = false
+       game:GetService("Players").LocalPlayer.ReplicationFocus = workspace
+       settings().Physics.ThrottleAdjustTime = 6 - math.huge
+						sethiddenproperty(game:FindFirstChildOfClass("Players").LocalPlayer,"SimulationRadius",1000)
+
+    setsimulationradius(1000,1000)
+    wait(1.5)
+
 loadstring(game:HttpGet("https://pastebin.com/raw/NWebKQ5B"))()
 wait(2.0)
 
