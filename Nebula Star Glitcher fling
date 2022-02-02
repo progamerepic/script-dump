@@ -1,0 +1,5 @@
+
+loadstring(game:HttpGet("https://pastebin.com/raw/NWebKQ5B"))()
+wait(2.0)
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mgamingpro/typicalhub/main/nebula.lua"))()
