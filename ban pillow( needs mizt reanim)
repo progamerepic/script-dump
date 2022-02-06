@@ -1336,7 +1336,7 @@ end)
 
 --// Credits to Mizt for this AMAZING alignment script :> //--
 local alignchar = game:GetService("Players").LocalPlayer.Character
-local hhat = alignchar['MeshPartAccessory']
+local hhat = alignchar['Pillow']
 
 local Count = 1
 function AlignCharacter(Part0,Part1,Position,Angle)
