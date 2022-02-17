@@ -1,6 +1,6 @@
 _G.Settings = {
-	Bullet = false,
-	Fling = true,
+	Bullet = true,
+	Fling = false,
 	CFrameMethod = false,
 }
 
